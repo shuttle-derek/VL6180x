@@ -1,0 +1,281 @@
+
+Linker Version 8.7.7.190806
+Input Object File: F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ
+Input Object File: F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\STARTUP1.OBJ
+Input Object File: F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ
+Input Object File: F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\FUNCTION.OBJ
+Input Object File: F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_mrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0001h     0001h    0001h      CODE               @start (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0002h     000eh    000dh      CODE               _uart_sent (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     000fh     0042h    0034h      CODE               _main (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0043h     0065h    0023h      CODE               _initial (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ)
+     00h     0066h     0067h    0002h      CODE               _wake_set (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ)
+     00h     0068h     0072h    000bh      CODE               _clear_ram (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ)
+     00h     0073h     007dh    000bh      CODE               _i2cStart (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     007eh     0088h    000bh      CODE               _i2cStop (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0089h     0093h    000bh      CODE               _Ack (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0094h     009ch    0009h      CODE               _NoAck (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     009dh     00b5h    0019h      CODE               _i2cWrite (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     00b6h     00cbh    0016h      CODE               _i2cRead (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     00cch     00e2h    0017h      CODE               _AckTimeout (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     00e3h     010bh    0029h      CODE               _ByteWriteTOF (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     010ch     0159h    004eh      CODE               _ReadTOF (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     015ah     0279h    0120h      CODE               _InitTOF (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     027ah     0325h    00ach      CODE               _doScan (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0326h     032fh    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0330h     033dh    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     033eh     0341h    0004h      CODE               __DELAY (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0342h     0346h    0005h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0040h     0042h    0003h      DATA     1.6667    @HCCINIT0 (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0043h     0043h    0001h      DATA     49        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0044h     0044h    0001h      DATA     36        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0045h     0045h    0001h      DATA     30        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0046h     0046h    0001h      DATA     2         @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0047h     0047h    0001h      DATA     2         @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0053h     0053h    0000h      LOCAL    0         @dummy (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0053h     0053h    0000h      LOCAL    0         _main (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0048h     0048h    0001h      LOCAL    6         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0048h     0048h    0000h      LOCAL    0         _clear_ram (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _initial (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _wake_set (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\INITIAL.OBJ)
+     00h     0049h     004fh    0007h      LOCAL    5.7143    _ReadTOF (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         __DELAY (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0048h     0048h    0000h      LOCAL    0         _i2cStart (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0001h      LOCAL    4         _i2cWrite (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _AckTimeout (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _i2cRead (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _Ack (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _NoAck (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _i2cStop (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _uart_sent (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ)
+     00h     0050h     0051h    0002h      LOCAL    4         _InitTOF (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0049h     004ch    0004h      LOCAL    33.5      _ByteWriteTOF (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+     00h     0048h     0048h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0050h     0052h    0003h      LOCAL    7.3333    _doScan (F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\I2C_SUB..OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0089h              _Ack
+     00cch              _AckTimeout
+     00e3h              _ByteWriteTOF
+     0049h              _ByteWriteTOF_2
+     0343h              _Crom2Prom
+     0342h              _Crom2PromNext
+     0042h              _Flag1
+     015ah              _InitTOF
+     0050h              _InitTOF_2
+     0094h              _NoAck
+     010ch              _ReadTOF
+     004dh              _ReadTOF_2
+     0341h              __DELAY0
+     0340h              __DELAY1
+     033fh              __DELAY2
+     033eh              __DELAY3
+     032ch              __DELAYX0
+     032bh              __DELAYX1
+     032ah              __DELAYX2
+     0329h              __DELAYX3
+     0328h              __DELAYX4
+     0327h              __DELAYX5
+     0326h              __DELAYX6
+     0335h              __DELAYY0_isr00
+     0334h              __DELAYY1_isr00
+     0333h              __DELAYY2_isr00
+     0332h              __DELAYY3_isr00
+     0331h              __DELAYY4_isr00
+     0330h              __DELAYY5_isr00
+     0040h              _buffer
+     0068h              _clear_ram
+     027ah              _doScan
+     0052h              _doScan_2
+     00b6h              _i2cRead
+     0073h              _i2cStart
+     007eh              _i2cStop
+     009dh              _i2cWrite
+     0043h              _initial
+     000fh              _main
+     0002h              _uart_sent
+     0066h              _wake_set
+     0043h              ra
+     0044h              rb
+     0045h              rc
+     0046h              rd
+     0047h              re
+
+     Address            Public by Value
+     0002h              _uart_sent
+     000fh              _main
+     0040h              _buffer
+     0042h              _Flag1
+     0043h              _initial
+     0043h              ra
+     0044h              rb
+     0045h              rc
+     0046h              rd
+     0047h              re
+     0049h              _ByteWriteTOF_2
+     004dh              _ReadTOF_2
+     0050h              _InitTOF_2
+     0052h              _doScan_2
+     0066h              _wake_set
+     0068h              _clear_ram
+     0073h              _i2cStart
+     007eh              _i2cStop
+     0089h              _Ack
+     0094h              _NoAck
+     009dh              _i2cWrite
+     00b6h              _i2cRead
+     00cch              _AckTimeout
+     00e3h              _ByteWriteTOF
+     010ch              _ReadTOF
+     015ah              _InitTOF
+     027ah              _doScan
+     0326h              __DELAYX6
+     0327h              __DELAYX5
+     0328h              __DELAYX4
+     0329h              __DELAYX3
+     032ah              __DELAYX2
+     032bh              __DELAYX1
+     032ch              __DELAYX0
+     0330h              __DELAYY5_isr00
+     0331h              __DELAYY4_isr00
+     0332h              __DELAYY3_isr00
+     0333h              __DELAYY2_isr00
+     0334h              __DELAYY1_isr00
+     0335h              __DELAYY0_isr00
+     033eh              __DELAY3
+     033fh              __DELAY2
+     0340h              __DELAY1
+     0341h              __DELAY0
+     0342h              _Crom2PromNext
+     0343h              _Crom2Prom
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0800h     0347h    40%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0040h     0013h    29%
+     Total     0040h     0013h    29%
+
+Use Stack Count
+_main: 4
+_TestAck: 1
+_WriteTOF: 2
+_TestGPIO: 1
+
+Call Tree
+    @dummy
+        _main (0)
+            __DELAYX (1)
+            _builtin_holtek_delay_isr00 (1)
+            _clear_ram (1)
+            _initial (1)
+            _wake_set (1)
+            _ReadTOF (1)
+                __DELAY (2)
+                _i2cStart (2)
+                    __DELAY (3)
+                _i2cWrite (2)
+                    __DELAY (3)
+                _AckTimeout (2)
+                    __DELAY (3)
+                _i2cRead (2)
+                    __DELAY (3)
+                _Ack (2)
+                    __DELAY (3)
+                _NoAck (2)
+                    __DELAY (3)
+                _i2cStop (2)
+                    __DELAY (3)
+            _uart_sent (1)
+            _InitTOF (1)
+                _ByteWriteTOF (2)
+                    _i2cStart (3)
+                        __DELAY (4)
+                    _i2cWrite (3)
+                        __DELAY (4)
+                    _AckTimeout (3)
+                        __DELAY (4)
+                    _i2cStop (3)
+                        __DELAY (4)
+                _ReadTOF (2)
+                    __DELAY (3)
+                    _i2cStart (3)
+                        __DELAY (4)
+                    _i2cWrite (3)
+                        __DELAY (4)
+                    _AckTimeout (3)
+                        __DELAY (4)
+                    _i2cRead (3)
+                        __DELAY (4)
+                    _Ack (3)
+                        __DELAY (4)
+                    _NoAck (3)
+                        __DELAY (4)
+                    _i2cStop (3)
+                        __DELAY (4)
+                _builtin_holtek_delay_isr00 (2)
+                _uart_sent (2)
+                _Crom2Prom (2)
+            _doScan (1)
+                _Crom2Prom (2)
+                _ReadTOF (2)
+                    __DELAY (3)
+                    _i2cStart (3)
+                        __DELAY (4)
+                    _i2cWrite (3)
+                        __DELAY (4)
+                    _AckTimeout (3)
+                        __DELAY (4)
+                    _i2cRead (3)
+                        __DELAY (4)
+                    _Ack (3)
+                        __DELAY (4)
+                    _NoAck (3)
+                        __DELAY (4)
+                    _i2cStop (3)
+                        __DELAY (4)
+                __DELAYX (2)
+                _uart_sent (2)
+                _ByteWriteTOF (2)
+                    _i2cStart (3)
+                        __DELAY (4)
+                    _i2cWrite (3)
+                        __DELAY (4)
+                    _AckTimeout (3)
+                        __DELAY (4)
+                    _i2cStop (3)
+                        __DELAY (4)
+    _TestAck
+        __DELAY (0)
+    _WriteTOF
+        _i2cStart (0)
+            __DELAY (1)
+        _i2cWrite (0)
+            __DELAY (1)
+        _AckTimeout (0)
+            __DELAY (1)
+        _Crom2Prom (0)
+        _i2cStop (0)
+            __DELAY (1)
+    _TestGPIO
+        _builtin_holtek_delay_isr00 (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'F:\Project\Carilex\E-Signal\i2c\200323-1\200323-1\BS45F3235_LIB.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
